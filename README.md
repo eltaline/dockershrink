@@ -16,11 +16,11 @@ Every check is an isolated analyzer, so the report is specific and the fixes are
 
 ```sh
 # from a release
-curl -L https://github.com/<user>/dockershrink/releases/latest/download/dockershrink_linux_amd64 -o /usr/local/bin/dockershrink
+curl -L https://github.com/eltaline/dockershrink/releases/latest/download/dockershrink_linux_amd64 -o /usr/local/bin/dockershrink
 chmod +x /usr/local/bin/dockershrink
 
 # or from source
-go install github.com/<user>/dockershrink@latest
+go install github.com/eltaline/dockershrink@latest
 ```
 
 ## Quick start
